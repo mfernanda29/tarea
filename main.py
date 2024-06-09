@@ -34,3 +34,6 @@ for column in df_one_hot_modalidad.columns:
 
 # Mostrar las primeras filas para verificar el resultado
 print(df_one_hot_modalidad.head())
+git add main.py
+git commit -m "Forzar nueva ejecución del workflow"
+git push origin main

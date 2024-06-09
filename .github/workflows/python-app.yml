@@ -21,4 +21,5 @@ jobs:
         pip install pandas numpy scikit-learn
 
     - name: Run script
-      run: python main.py  # Cambia 'main.py' al nombre real de tu archivo si es diferente
+      run: python main.py
+

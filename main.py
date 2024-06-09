@@ -1,6 +1,3 @@
-from google.colab import drive
-drive.mount('/content/drive')
-
 import csv
 import pandas as pd
 import numpy as np
@@ -11,8 +8,8 @@ from sklearn.base import TransformerMixin
 from sklearn.preprocessing import RobustScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer
 
-# Cargar el dataset
-df = pd.read_csv('/content/drive/MyDrive/Mydrive/Accidentes de tránsito en carreteras-2020-2021-Sutran.csv', encoding='utf-8-sig', delimiter=';')
+# Cargar el dataset desde el repositorio directamente
+df = pd.read_csv('Accidentes de tránsito en carreteras-2020-2021-Sutran.csv', encoding='utf-8-sig', delimiter=';')
 
 # Mostrar las primeras filas del DataFrame
 print(df.head())
